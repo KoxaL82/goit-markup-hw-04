@@ -286,16 +286,19 @@ header .container {
 }
 .secdort-li:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  
+  transform: translateY(0%);
 }
-
+.secdort-li:hover .secdort-paragiki{
+ 
+  transform: translateY(0%);
+}
 .secdort-div {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
-.secdort-geneldiv{
+.secdort-diviki{
   position: relative;
   overflow: hidden;
 
@@ -328,7 +331,6 @@ header .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  transform: translateY(0%);
   
 }
 .altkisim-class {
